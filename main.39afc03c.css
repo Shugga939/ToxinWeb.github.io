@@ -1866,7 +1866,7 @@ input[view=long]::placeholder {
   cursor: default;
 }
 .wrapper_searchRoom .filter .price .title {
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 0px;
 }
 .wrapper_searchRoom .filter .price .range-slider-container {
@@ -1929,6 +1929,10 @@ input[view=long]::placeholder {
 .wrapper_searchRoom .filter .availability .checkboxContainer {
   margin-bottom: 12px;
   height: 51px;
+}
+.wrapper_searchRoom .filter .availability .checkboxContainer .description {
+  position: absolute;
+  margin-top: 25px;
 }
 .wrapper_searchRoom .filter .facilities {
   position: relative;
@@ -2024,7 +2028,7 @@ input[view=long]::placeholder {
   cursor: default;
 }
 .wrapper_searchRoom .filter .more_facilities {
-  margin-top: 10px;
+  margin-top: 30px;
   width: 250px;
 }
 .wrapper_searchRoom .filter .more_facilities .title {
@@ -2075,7 +2079,7 @@ input[view=long]::placeholder {
   width: 270px;
   margin-left: 1px;
   margin-right: 10px;
-  margin-bottom: 17px;
+  margin-bottom: 16px;
   background-color: white;
   border-radius: 4px;
   box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
